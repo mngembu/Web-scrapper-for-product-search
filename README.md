@@ -24,12 +24,15 @@ Welcome to the Amazon Web Scraper for Product Search! This project is designed t
 ## Usage
 ### Command Line Interface
 To use the scraper from the command line, navigate to the project directory and run the following command
-     pip install -r requirements.txt
-     scraper.py your search term
+   
+scraper.py your search term
+
 Replace "your search term" with the product keyword you want to search for.
 
 Example
+
      Amazon web scraper.py laptop
+     
 This will search for laptops on Amazon and display the results in the terminal.
 
 ### Output
