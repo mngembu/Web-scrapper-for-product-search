@@ -15,8 +15,8 @@ Welcome to the Amazon Web Scraper for Product Search! This project is designed t
 - Git
 
 ### Clone Repository
-     git clone https://github.com/yourusername/amazon-web-scraper.git
-     cd amazon-web-scraper
+     git clone https://github.com/yourusername/web-scraper-for-product-search.git
+     cd web-scraper-for-product-search
 
 ### Install Dependencies
      pip install -r requirements.txt
