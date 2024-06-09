@@ -1,4 +1,4 @@
-# Web Scrapper for Product Search on Amazon
+# Web Scraper for Product Search on Amazon
 
 Welcome to the Amazon Web Scraper for Product Search! This project is designed to help you search for products on Amazon and retrieve detailed information about them. This can be useful for market research, price comparison, and monitoring product availability.
 
@@ -26,24 +26,24 @@ Welcome to the Amazon Web Scraper for Product Search! This project is designed t
 To use the scraper from the command line, navigate to the project directory and run the following command:
 
 bash
-     python scraper.py "your search term"
+     scraper.py your search term
 Replace "your search term" with the product keyword you want to search for.
 
 Example
 bash
-     python scraper.py "laptop"
+     Amazon web scraper.py laptop
 This will search for laptops on Amazon and display the results in the terminal.
 
 ### Output
-The scraper will save the results in a CSV file named products.csv in the project directory. The CSV file will contain the following columns:
-- Product Title
+The scraper will save the results in a CSV file named results.csv in the project directory. The CSV file will contain the following columns:
+- Product Description
 - Price
 - Rating
 - Number of Reviews
-- Availability
+- Product url
 
 ## Project Structure
-- scraper.py: The main script to run the scraper.
+- Amazon web scraper.py: The main script to run the scraper.
 - requirements.txt: A file listing the required Python libraries.
 - README.md: This file.
 
